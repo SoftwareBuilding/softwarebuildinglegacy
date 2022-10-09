@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <link rel="stylesheet" href="./css/animation.css">
+<link rel="stylesheet" href="./css/global.css">
+<link rel="stylesheet" href="./animations/animate-text.css">
+
+  <title>SBL - TI</title>
+
+  <link rel="shortcut icon" href="./assets/images/favico.png" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+                                                                                        
+  
+  <div class="fixed-action-btn">                               
+    <a class="btn-floating btn-large" style="background-color: #2193f6;">
+      <i class="large material-icons">add</i>
+    </a>
+    <ul>
+    
+      <li><a class="btn-floating red darken-1"><i class="material-icons">account_circle</i></a></li>
+      <li><a class="btn-floating" style="background-color: rgb(54, 54, 51) !important;">
+        <i class="material-icons">whatsapp</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">chat</i></a></li>
+    </ul>
+  </div>
+
+  <style>.float{
+    /* display: block; */
+    z-index: 70000;
+    position: fixed;
+    top: 50%;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+  }</style>
+  <div class="modal float">
+    <div class="header">
+<i class="material-icons" style="float: left;">backup</i>
+<strong style="font-size: 15px; font-weight: bold;">Uploading File...!</strong>
+    </div>
+    <div class="divider"></div>
+    <div class="body">
+      <progress id="progress"></progress>
+    </div>
+  </div>
+</head>
+<body>
+  <nav class="white" role="navigation" style="display: flex;">
+    <div class="nav-wrapper container">
+      <img src="./assets/images/favico.png"
+      alt=""></a>
+
+      <a href="#" class="brand-logo">
+     
+      <a id="logo-container" href="#" class="brand-logo">
+        
+  
+ <span style="margin-left: 25px;">Desenvolvedora de Softwares</span>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Crie seu App ou Site agora!</a>
+        </li>
+ 
+       <!--  -->
+
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Orçamentar</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+    <!--  -->
+    <li class="waves-effect waves-dark viewAccount" style="display: flex; margin-right: 35px;"><i class="material-icons" style="color: #2193f6; margin-top: 5px;">account_circle</i>
+     <span style="color: #2193f6; float: left; margin-left: 15px;" id="interrogation">Desenvolvedor?</span>
+    </li>
+      
+      <!--  -->
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2 animate-charcter" 
+        style="color: aliceblue !important; text-shadow: black 0.1em 0.1em 0.2em;">Software Building Legacy</h1>
+        <div class="row center">
+          <h5 class="header col s12 light" 
+          style="text-shadow: black 0.1em 0.1em 0.2em;
+           background-color: rgba(0, 0, 0, 0.315); padding: 3px; border-radius: 150px;">A Melhor Empresa Oficial Desenvolvedora de Apps, Sites e Plataformas No Mundo!</h5>
+
+
+        </div>
+
+          
+        <div class="row center">
+          <a href="#!" id="download-button" class="btn-large waves-effect waves-light btn-color-A open-signup">Trabalhe conosco</a>
+       
+          <a href="#!" id="download-button" class="btn-large waves-effect waves-light btn-color-B open-contract">Fazer orçamento</a>
+
+        </div>
+        <div class="animate-texts" style="text-align: center; ">
+         <!-- <span id="sp1">Divulgue nossa empresa e ganhe descontos</span> -->
+          </div>
+        <br>
+
+      </div>
+    </div>
+    <div class="parallax"><img id="change1" src="./assets/images/a6.jpg" width="100%" alt="Unsplashed background img 1"
+      style="background-repeat: no-repeat; background-size: cover;"></div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Velocidade no Desenvolvimento</h5>
+
+            <p class="light">Trabalhamos com as mais altas tecnologias no mercado para rapidamente e com alta velocidade possamos entregar cada projeto em seu tempo contractual aos nosso clientes. Nossa agilidade é a única no mercado co mais de 10 anos atuando como pioneiros dentro e fora do Brasil.
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Equipe de Desenvolvedores</h5>
+
+            <p class="light">Temos uma alta vasta equipe de desenvolvedores trabalhando como parceiros conosco dentro e fora do Brasil. A cada dia novos profissionais adentram a nossa empresa. Nois recrutamos só os melhores no mercado e a grande maioria são estrangeiros.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center blue-text"><i class="material-icons">code</i></h2>
+            <h5 class="center">Tecnologias e Linguagens</h5>
+
+            <p class="light">Trabalhamos com a grande maioria das tecnologias no mercado como Android Studio, VS Code e dntre outrase das linguagens que também trabalhamos em projetos dentre elas trabalhamos com: Javascript, Angular, Java, Cordova, Electron, Ionic e dentre outras.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Equipes de desenvolvedores altamentes qualificados e prontos pra trabalhar</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="./assets/images/team.jpg" width="100%" style="background-repeat: no-repeat; background-size: cover;"
+       alt="Unsplashed background img 2">
+    
+    
+    </div>
+  </div>
+
+  <div class="container" style="width: 100%; padding: 0;">
+     <!-- Carroussel -->
+    <div class="carousel" style="background-image: url(/assets/images/a7.png);
+     width: 100%; margin-top: 10px; background-repeat: no-repeat; background-size: cover;">
+      <a class="carousel-item" href="#one!"><img src="./assets/images/app/dashboard.png"></a>
+      <a class="carousel-item" href="#two!"><img src="./assets/images/app/add members.png"></a>
+      <a class="carousel-item" href="#three!"><img src="./assets/images/app/members.png"></a>
+      <a class="carousel-item" href="#four!"><img src="./assets/images/app/print.png"></a>
+      <a class="carousel-item" href="#five!"><img src="./assets/images/app/chart.png"></a>
+    </div>
+    <!-- carroussel -->
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Nossos Trabalhos</h4>
+          <p class="left-align light">Temos uma vasta variedade de projetos já criados e desenvolvidos para os nossos clientes, detre eles temos varias áreas, desde scipts até bots para automatização de negócios. Abaixo você pode ver uma lista de designs específicos para apps e sites. Nosso front end tanto quanto back end é bem estruturado. Temox uma linha de lógica de construção de projetos profissionalmente bem organizados. Trabalhamos atualmente em 5 paises parceiros nossos e sponsors que nos ajudam também a expandi noss objetivo que é realizar o sonho de todo mundo cliente parceiros amigos nossos;</p>
+        
+        
+       
+      
+        
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+ <!-- <p>456457op</p> -->
+
+    
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Empresas afiliadas em 5 paises trabalhando conosco a todo vapor</h5>
+        </div>
+      </div>
+    </div> 
+   
+    <div class="parallax"><img id="change2" src="./assets/images/company2.jpg" width="100%" alt="Unsplashed background img 3">
+   
+      
+    </div>
+  </div>
+
+  <footer class="page-footer footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">Somos uma startup pioneira e qualificada no desenvolvimento de sites, apps e plataformas em vários segmentos e setores no mercado. Temos uma história de trabalho com mais de 10 anos no mercado.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Informação</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Rua 25 de Março - São Paulo</a></li>
+            <li><a class="white-text" href="#!">(19) 996999596</a></li>
+            <li><a class="white-text" href="#!">Rua Centro - Campinas - SP</a></li>
+            <li><a class="white-text" href="#!">SEO - Manoel</a></li>
+            <li><a class="white-text" href="#!">CTO - Ricardo</a></li>
+            <li><a class="white-text" href="#!">Director - William</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Portfólio</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Apps/sites e plataforma</a></li>
+            <li><a class="white-text" href="#!">Modelo de Contrato</a></li>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Software Building Legacy</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Modals -->
+
+  <!-- Modal signup -->
+<div class="modal signup" style="z-index: 1; position: absolute; top: 31%;">
+ 
+<div class="header"> <i class="material-icons" style="float: left;">add</i>
+
+<strong style="font-size: 20px; margin-left: 15px;">Conta de Desenvolvedor</strong>
+<i class="material-icons close-signup" style="float: right; 
+background-color: rgb(54, 54, 51) !important; 
+border-radius: 150px; padding: 3px; color: #2193f6; cursor: pointer;">close</i>
+
+  <div class="body">
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="name-signup" type="text" class="validate">
+            <label for="name-signup">Nome Completo</label>
+          </div>
+
+          <div class="input-field col s6">
+            <i class="material-icons prefix">whatsapp</i>
+            <input id="telephone-signup" type="tel" class="validate">
+            <label for="icon_telephone">Telefone</label>
+          </div>
+
+          <div class="input-field col s6">
+            <i class="material-icons prefix">chrome_reader_mode</i>
+            <input id="document-signup" type="number" class="validate">
+            <label for="icon_telephone" id="document-lable" >CPF</label>
+          </div>
+
+          <div class="input-field col s6">
+            <i class="material-icons prefix">person_pin_circle</i>
+            <input id="address-signup" type="text" class="validate">
+            <label for="icon_telephone">Endereço</label>
+          </div>
+
+          
+          <div class="row" style="padding: 10px; width: 100%;">
+            <div class="input-field col s12">
+              <textarea id="description" class="materialize-textarea"></textarea>
+              <label for="textarea1">Escreva sua eperiência, tempo de trabalho, nível, tecnologias, linguagens e seu sector ou área...</label>
+            </div>
+          </div>
+
+          <div class="container" style="text-align: center; width: 100%;">
+
+                <label>
+                  <input type="checkbox" onchange="checked1()" id="check1" value="1"/>
+                  <span>Conta física</span>
+                </label>
+              
+                  <label style="margin-left: 15px;">
+                    <input type="checkbox" onchange="checked2()"  id="check2" value="2"/>
+                    <span>Conta jurídica</span>
+                  </label>
+             
+          </div>
+          <div class="container" style="text-align: center; margin-top: 10px;">
+<span id="choose-span">Adicione sua foto perfil e seu currículo</span>
+          </div>
+<div class="container" style="width: 100%; text-align: center; margin-top: 20px;">
+
+   <style>
+     #file-input {
+  display: none;
+}
+   </style>
+  <label for="file-input">
+  <img id = "profile" src="./assets/images/psb.png" width="30" height="30" alt="" 
+  style="margin-right: 50px; cursor: pointer; border-radius: 150px; padding: 1px;">
+</label>
+<input id="file-input" type="file"  onchange="readURL(this)"/>
+
+  <img id = "resume" src="./assets/images/rsb.png" width="30" height="30"  alt="" 
+  style="cursor: pointer;">
+</div>
+
+
+<div class="container" style="text-align: center; margin-top: 25px;">
+
+<a href="#!" class="waves-effect waves-dark btn btn-color-B btn-signup">Enviar dados</a> <br>
+<small>Receberemos seus dados e se tudo ocorrer bem, em breve entraremos em contato com você para uma entrevista.
+  Caso passe na entrevista, você trabalhará conosco e terá acesso a plataforma aqui conosco com uma conta que criaremos pra você.
+</small>
+
+</div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal Signup -->
+
+<!-- Modal contract  -->
+<div class="modal contract" style="z-index: 1; position: absolute; top: 31%;">
+ 
+  <div class="header"> <i class="material-icons" style="float: left;">beenhere</i>
+  
+  <strong style="font-size: 20px; margin-left: 15px;">Detalhe seu Projeto</strong>
+  <i class="material-icons close-contract" style="float: right; 
+  background-color: rgb(54, 54, 51) !important; 
+  border-radius: 150px; padding: 3px; color: #2193f6; cursor: pointer;">close</i>
+  
+    <div class="body">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+  
+            <div class="input-field col s6">
+              <i class="material-icons prefix">label</i>
+              <input id="title" type="text" class="validate">
+              <label for="name-signup">Título</label>
+            </div>
+  
+      
+                <div class="row" style="padding: 10px; width: 100%;">
+                  <div class="input-field col s12">
+                    <textarea id="description" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Detalhes do projeto etc...</label>
+                  </div>
+                </div>
+             
+  
+          
+  
+  <div class="container" style="text-align: center; margin-top: 25px;">
+  
+  <a href="#!" class="waves-effect waves-dark btn btn-color-B btn-send">Enviar agora</a>
+  <a href="#!" class="waves-effect waves-dark btn btn-color-A btn-send-whatsapp">Envio WhatsApp</a>
+  <br>
+  <small>Receberemos seus dados e entraremos em contato com você</small>
+  
+  </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+<!-- Modal contract -->
+
+
+<!-- Modal Login -->
+<div class="modal login" style="z-index: 1; position: absolute; top: 31%;">
+ 
+  <div class="header"> <i class="material-icons" style="float: left;">add</i>
+  
+  <strong style="font-size: 20px; margin-left: 15px;">Entre com sua conta</strong>
+  <i class="material-icons close-login" style="float: right; 
+  background-color: rgb(54, 54, 51) !important; 
+  border-radius: 150px; padding: 3px; color: #2193f6; cursor: pointer;">close</i>
+    <div class="body">
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="email-login" type="text" class="validate">
+              <label for="icon_prefix">Seu E-mail</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">lock</i>
+              <input id="password-login" type="tel" class="validate">
+              <label for="icon_telephone">Senha</label>
+            </div>
+  <div class="container" style="text-align: center; margin-top: 25px;">
+  
+  <a href="#!" class="waves-effect waves-dark btn btn-color-B btn-login">Entrar</a> 
+
+  <span style="margin-left: 15px; margin-right: 15px;">Ou</span>
+  <a href="#!" class="waves-effect waves-dark btn btn-color-A btn-open-signup">Cadastrar</a> 
+  </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- Modal Login -->
+
+  <!-- Modals -->
+
+
+<!--Firebase SDK-->
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"> </script> 
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-storage.js"></script>
+<!--Firebase SDK-->
+
+<script src="./services/firebase-app.js"></script>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./js/materialize.js"></script>
+  <script src="./js/init.js"></script>
+
+  <script src="./js/main.js"></script>
+
+  <!-- For login and signup methods -->
+  <script src="./processes/auth.js"></script>
+
+  <script src="./js/imagePick/whenImagePicked.js"></script>
+  <script src="./js/imagePick/uploadFilePicked.js"></script>
+  </body>
+</html>

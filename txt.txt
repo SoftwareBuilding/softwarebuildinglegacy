@@ -1,0 +1,7 @@
+Links:
+
+console.firebase.google.com/u/0/project/sbl-projects/overview
+
+https://javascript.tutorialink.com/firebase-login-check-if-email-in-use/
+
+https://www.naishare.com/blog/how-to-upload-files-to-firebase-cloud-storage-using-javascript
